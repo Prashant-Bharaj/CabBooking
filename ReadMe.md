@@ -1,0 +1,4 @@
+- current location can get from coordinates latitude and longitude.
+- two types of users: driver and rider(or simply users as this application revenue dependent on them :) ).
+- on based of current location of rider show result of cabs with 5 units of area.
+- 2 repo : user, driver

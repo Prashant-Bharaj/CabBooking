@@ -1,4 +1,8 @@
 package commands;
 
-public class Command {
+public enum Commands {
+    AddRider,
+    AddDriver,
+    FindRide,
+    ChooseRide
 }

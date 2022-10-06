@@ -1,2 +1,7 @@
-package commands;public class ICommand {
+package commands;
+
+import java.util.List;
+
+public interface ICommand {
+    void execute(List<String> tokens);
 }

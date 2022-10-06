@@ -1,10 +1,12 @@
 package repository;
 
+import model.Rider;
 import model.User;
 
 import java.util.Optional;
 
-public interface IUserRepository {
-    public void save(User user);
-    public Optional<User> findByName(String name);
+public interface IRiderRepository {
+    public void save(Rider rider);
+    public Optional<Rider> findByName(String name);
+    public boolean riderExists(String name);
 }
